@@ -12,6 +12,7 @@ function AllSkill() {
     "node.svg",
     "mongodb.jpg",
     "tailwind.jpg",
+    "pgsql.png"
   ];
 
   return (
@@ -41,7 +42,8 @@ function AllSkill() {
           className={`lg:w-35 lg:h-35 md:w-30 md:h-30 sm:w-20 sm:h-20  rounded-xl  overflow-hidden border shadow-skill animate-pulse  border-cyan bg-cover  bg-no-repeat cursor-grab active:cursor-grabbing  `}
         >
           <div className="h-full w-full  bg-darkCyan/10 ">
-          <img src={img} alt="" /></div>
+            <img src={img} alt="" />
+          </div>
         </motion.div>
       ))}
 
@@ -50,13 +52,14 @@ function AllSkill() {
         <li className="inline-block  ">css</li>
         <li className="inline-block  ">tailwind</li>
         <li className="inline-block  ">Java_script</li>
+        <li className="inline-block  ">Type</li>
         <li className="inline-block  ">react</li>
         <li className="inline-block  ">redux</li>
         <li className="inline-block  ">Node_js</li>
         <li className="inline-block  ">Express_js</li>
         <li className="inline-block  ">mongodb</li>
+        <li className="inline-block  ">PostgreSQL</li>
         <li className="inline-block  ">Git_github</li>
-        <li className="inline-block  ">data_structure</li>
       </ul>
     </motion.div>
   );
